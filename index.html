@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portefolio</title>
+    <title>Mon portfolio</title>
 </head>
 <body>
     <header>
         <h1>Christian Emmanuel DONGBETO</h1>
         <nav>
             <ul>
-                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -18,27 +18,37 @@
     </header>
     <main>
         <section class="apropos">
-            <h2>A propos de moi</h2>
-            <img src="https://placehold.co/200" alt="Ma photo de profile">
-            <p></p>
+            <h2>À propos de moi</h2>
+            <img src="https://placehold.co/200" alt="Ma photo de profil">
+            <p>Je suis DONGBETO Christian Emmanuel, développeur web</p>
         </section>
-        <section class="competences" id="projets">
-            <h2>Mes Competences</h2>
+        <section class="projets" id="projets">
+            <h2>Mes projets</h2>
+            <p>Bientôt disponible</p>
+        </section>
+        <section class="competences">
+            <h2>Mes Compétences</h2>
             <ul>
-                <li><a href="">HTML et CSS</a></li>
-                <li><a href="">JavaScript</a></li>
-                <li><a href="">React.js</a></li>
+                <li>HTML et CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
             </ul>
         </section>
-        <section id="Contact">
-            <label for="nom"><input type="text" required>Nom</label>
-            <label for="email"><input type="email" required>Email</label>
-            <textarea name="message" id="" required>Message</textarea>
+        <section id="contact">
+            <h2>Formulaire de contact</h2>
+            <form action="">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" required name="nom">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mon message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
-        <button type="submit">Envoyer</button>
     </main>
     <footer>
-        © 2026 DONGBETO Christian Emmanuel
+        <p>© 2026 DONGBETO Christian Emmanuel</p>
     </footer>
 </body>
 </html>
